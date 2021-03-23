@@ -63,7 +63,7 @@ export const projectsData = [
     img: 'Space-Quiz-App.png',
     title: 'Space Quiz',
     info:
-      'The goal of this project was to build a responsively designed, functioning quiz that would seamlessly allow users to navigage through one question at a time, while displaying their current score and question number, alerting them to any correct and incorrect answers, and displaying their final score at the end with a chance to retake the quiz.',
+      'The goal of this project was to build a responsively designed, functioning quiz that would seamlessly allow users to navigate through one question at a time, while displaying their current score and question number, alerting them to any correct and incorrect answers, and displaying their final score at the end with a chance to retake the quiz.',
     info2: 'I built this quiz using HTML, CSS, JavaScript, and jQuery.',
     url: 'https://b-starr7.github.io/quiz-app-final/',
     repo: 'https://github.com/B-Starr7/quiz-app-final', // if no repo, the button will not show up
