@@ -10,14 +10,14 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Ben Starr',
+  subtitle: 'Front-end Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'portfolio-profile.jpeg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -28,30 +28,39 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'apex-clothing-homepage.png',
     title: '',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://apex-clothes.herokuapp.com',
+    repo: 'https://github.com/B-Starr7/apex-clothing', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'Tracksly-Desktop-Hero-Results.png',
     title: '',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'http://tracksly.me',
+    repo: 'https://github.com/B-Starr7/tracksly', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'event-finder-homepage.png',
     title: '',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://b-starr7.github.io/event-finder/',
+    repo: 'https://github.com/B-Starr7/event-finder', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Space-Quiz-App.png',
+    title: '',
+    info: '',
+    info2: '',
+    url: 'https://b-starr7.github.io/quiz-app-final/',
+    repo: 'https://github.com/B-Starr7/quiz-app-final', // if no repo, the button will not show up
   },
 ];
 
@@ -90,5 +99,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
