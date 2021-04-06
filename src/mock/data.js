@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     'I have a passion for solving problems and building unique websites and applicaitons. Putting the pieces together and watching it all come to life is what excites me the most. I would love nothing more than to be a part of a team of amazing programmers, contirubting to help create greatness.',
   paragraphTwo:
-    'Outside of writing code, I am currently a Field Radio Operator in the United States Marine Corps Reserve, and I enjoy playing guitar, loud concerts, and drinking cold beer with friends.',
+    'Outside of writing code I enjoy playing guitar, loud concerts, and drinking cold beer with friends.',
   paragraphThree: 'I develop apps primarily using JavaScript, React, and Sass.',
   resume: '', // if no resume, the button will not show up
 };
